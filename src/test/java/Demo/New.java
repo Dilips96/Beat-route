@@ -127,14 +127,9 @@ public class New {
 		  
 	       Actions a = new Actions(driver) ;
 	       a.sendKeys(textField, "##aot").click().perform();
-	       
-	  
-	  
-	       
+	      
 	   // driver.findElement(By.xpath("//div[text () = \"select tags\"]")).sendKeys("##aot");
 	    Thread.sleep(2000);
-		
-		
 		driver.quit();
 		
 
