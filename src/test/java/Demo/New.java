@@ -42,15 +42,12 @@ public class New {
 
 		//driver.navigate().to("http://65.0.235.139:3000/"); // With out using get method --> Using Navigation
 
-		String Title = driver.getTitle();  // To get the title of the website
+		String Title = driver.getTitle();  
+		// To get the title of the website
 
 
 		// print the title of the console
 		System.out.println(Title);
-
-
-
-
 
 
 		//driver.findElement(By.xpath("//a[text()='Log In']")).click();  // For Click Function
@@ -138,7 +135,7 @@ public class New {
 	    Thread.sleep(2000);
 		
 		
-		
+		driver.quit();
 		
 
 	}
